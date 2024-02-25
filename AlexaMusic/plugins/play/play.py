@@ -57,7 +57,7 @@ async def play_commnd(
 ):
     if not await is_served_user(message.from_user.id):
         await message.reply_text(
-            text="💒 ᴅᴇᴀʀ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴀᴛ [•ʙω͠ғ•] ᴅᴀᴛᴀʙᴀsᴇ.\n🧸 ᴘʟᴇᴀsᴇ ᴜsᴇ /verify ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ ᴀᴛ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ.",
+            text="⟵᳟̽💌ᯓꪶᴄʟɪᴄᴋ ᴋɪᴊɪʏᴇ ❁͜͡ ➛\n /VERIFY 💨.",
         )
         return
     mystic = await message.reply_text(
